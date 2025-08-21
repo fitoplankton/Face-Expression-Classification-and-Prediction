@@ -25,20 +25,6 @@ Classification is performed with **SVM (Support Vector Machine)**, and the train
 
 ---
 
-## 📂 Project Structure
-── app.py # Main web application
-├── utils.py # Feature extraction (HOG, OD-LBP, PCA, etc.)
-├── new_models/ # Saved models (PCA, SVM, etc.)
-│ ├── pca_hog_8.pkl
-│ ├── svm_model.pkl
-│ └── ...
-├── static/ # Static files (CSS, images)
-├── templates/ # HTML templates (Flask)
-├── dataset/ # Facial dataset (if available)
-└── README.md # Project documentation
-
----
-
 ## ⚙️ Installation
 1. Clone this repo:
    ```bash
